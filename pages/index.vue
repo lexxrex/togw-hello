@@ -46,30 +46,8 @@
         <p class="mx-auto mt-4 mb-2 font-thin text-sm text-center tracking-wider text-gray-500">הכל זה אהבה, פחד הוא אשליה, כל היצורים חופשיים והאמת לעולם לא ניתנת להכחדה</p>
         <!-- LOVELEX -->
         <NuxtLink to="https://t.me/lexxrex" target="_blank" class="mx-auto mt-0 mb-4 font-thin text-xs">
-            <!-- Made with 🧠 from ❤️ for ⚖️ by Lex -->
-            Made with ❤️ by Lex
-            <!-- נוצר מ- ❤️ ע"י לקס -->
+          Made with ❤️ by Lex
         </NuxtLink>
-
-        <!-- <div class="flex justify-start">
-
-          <div class="flex-1">
-            <p class="mb-4">שלום אחד וכולם,</p>
-            <p class="mb-4">גוף הידע המשותף פה מהווה את המפתח הראשי לכל המנעולים על כל הדלתות של כל הכלובים התודעתיים בהם רובנו עדיין נמצאים ואפילו לא מודעים. כל מי שיבחר 
-              <NuxtLink to="https://youtu.be/_GzPYIt7lHM" target="_blank">ללמוד</NuxtLink>
-              ולהשתמש בו, יוכל להשתחרר ולעזור לשחרר את התודעה של כל אחד ואחת מאיתנו ממערכות השליטה המחשבתית והתודעתית אליהן נחשפנו מלידה. וכקולקטיב, להיות חלק מהפתרון שיוביל לשינוי במצב הפיזי הקיים בחברה - מעבדות לחירות.
-            </p>
-            <p>היציאה מעבדות לחירות יכולה להתממש ולהתקיים רק ע״י למידה, הבנה ועשייה של 
-              <NuxtLink to="https://t.me/therealnaturallaw/69" target="_blank">העבודה הגדולה האחת</NuxtLink>.
-              העבודה הגדולה האחת מתחילה בלמידה יסודית ועצמאית של החוק הטבעי האמיתי. וממשיכה בלעזור ולהעניק ידע שמשחרר את התודעה ממקום של אחריות מוסרית ואהבה לאחר. אלו גם המניעים להקמת ערוץ החוק הטבעי האמיתי והבסיס שמחבר בין חברי הקבוצה של העבודה הגדולה האחת.
-            </p>
-          </div>
-
-          <div class="flex-1">
-            2
-          </div>
-
-        </div> -->
 
       </div>
     </footer>

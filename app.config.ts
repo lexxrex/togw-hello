@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 export default defineAppConfig({
-  version: '0.1.4',
+  version: '0.1.5',
   logomark: 'TOGW-logomark-wht.jpg',
   avatarBaseUrl: 'https://umjsqfwlhbsyfaqlyanw.supabase.co/storage/v1/object/sign/avatars/',
   ui: {

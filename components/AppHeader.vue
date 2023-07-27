@@ -1,30 +1,6 @@
 <script setup lang="ts">
-// const appConfig = useAppConfig()
-// const client = useSupabaseAuthClient()
-// const user = useSupabaseUser()
-// const supabase = useSupabaseClient()
-// const loading = ref(false)
-// const email = ref('')
 const isOpen = ref(false)
 const appConfig = useAppConfig()
-
-// const logout = async () => {
-//   await client.auth.signOut()
-//   navigateTo('/')
-// }
-
-// const handleLogin = async () => {
-//   try {
-//     loading.value = true
-//     const { error } = await supabase.auth.signInWithOtp({ email: email.value })
-//     if (error) { throw error }
-//     alert('Check your email for the login link!')
-//   } catch (error) {
-//     alert(error)
-//   } finally {
-//     loading.value = false
-//   }
-// }
 
 </script>
 
@@ -85,48 +61,13 @@ const appConfig = useAppConfig()
                     Made with ❤️ by Lex
                     <!-- נוצר מ- ❤️ ע"י לקס -->
                   </NuxtLink>
-
-                  <!-- <div class="flex flex-col md:flex-row items-center">
-                    <div class="flex-1 py-4">
-                    <UButton
-                      label="ללמוד את החוק הטבעי"
-                      variant="outline"
-                      class="font-semibold"
-                      color="gray"
-                      size="sm"
-                      block
-                    />
-                  </div>
-                  <div class="flex-1 flex-shrink py-4">
-                    <UButton
-                      label="להפיץ ולשתף את הידע הנסתר"
-                      variant="outline"
-                      class="font-semibold"
-                      color="gray"
-                      size="sm"
-                      block
-                    />
-                    </div>
-                  </div> -->
                 </UContainer>
               </UModal>
             </UTooltip>
           </div>
-
-
-          <!-- <NuxtLink to="/profile">
-            <UAvatar alt="לקס רקס" size="sm" chip-color="primary" />
-          </NuxtLink> -->
         </div>
       </ClientOnly>
-      <!-- Head 2/3 -->
-      <div class="flex-1 flex flex-row items-center justify-center">
-        <!-- <UTooltip text="העבודה הגדולה האחת">
-          <NuxtLink to="/" class="flex items-center justify-center rounded-xl hover:bg-zinc-100 dark:hover:bg-zinc-900 w-12 h-12 my-1">
-            <UIcon name="i-heroicons-scale" class="text-3xl" />
-          </NuxtLink>
-        </UTooltip> -->
-      </div>
+
       <!-- Head 3/3 -->
       <div class="flex flex-1 flex-row items-center justify-end">
         <UTooltip text="ללמוד">
@@ -148,96 +89,9 @@ const appConfig = useAppConfig()
           />
         </UTooltip>
 
-
         <UTooltip text="מצב צבע" class="ms-1">
           <ColorModeButton/>
         </UTooltip>
-        
-        <!-- <div v-if="user">
-          <UButton
-            label="יציאה"
-            class="mx-2 font-thin"
-            color="white"
-            variant="link"
-            @click="isOpen = true"
-          />
-          <UModal v-model="isOpen">
-              <form class="flex items-center justify-center" @submit.prevent="handleLogin">
-                <UContainer class="text-center py-4">
-                  <h1 class="text-2xl font-black text-zinc-900 dark:text-zinc-200 py-2">
-                    העבודה הגדולה האחת
-                  </h1>
-
-                  <hr class="my-3 border-l-zinc-100 dark:border-zinc-900"/>
-                  
-                  <p class="my-6 text-md text-zinc-800 dark:text-zinc-300">
-                    אנא אשר/י יציאה
-                  </p>
-
-                  <div>
-                    <UButton
-                    :label="loading ? 'טוען' : 'אישור יציאה'"
-                    :disabled="loading"
-                    variant="solid"
-                    class="mt-4 text-white dark:text-white font-semibold"
-                    color="primary"
-                    size="xl"
-                    block
-                    @click="logout"
-                  />
-                  <span class="text-xs text-gray-400 dark:text-gray-700 block mt-2">להתראות בקרוב</span>
-                </div>
-              </UContainer>
-            </form>
-          </UModal>
-        </div> -->
-        <!-- <div v-if="!user">
-          <UButton
-            label="כניסה"
-            class="mx-2 font-thin"
-            color="white"
-            variant="link"
-            @click="isOpen = true"
-            />
-            
-            <UModal v-model="isOpen">
-              <form class="flex items-center justify-center" @submit.prevent="handleLogin">
-                <UContainer class="text-center py-4">
-                  <h1 class="text-2xl font-black text-zinc-900 dark:text-zinc-200 py-2">
-                    העבודה הגדולה האחת
-                  </h1>
-
-                  <hr class="my-3 border-l-zinc-100 dark:border-zinc-900"/>
-                  
-                  <p class="my-6 text-md text-zinc-800 dark:text-zinc-300">
-                    היכנס/י באמצעות קישור פלא עם הדוא"ל שלך
-                  </p>
-
-                  <div>
-                    <UInput
-                    v-model="email"
-                    type="email"
-                    placeholder='הדוא"ל שלך'
-                    size="md"
-                  />
-                  </div>
-                  <div>
-                    <UButton
-                    :label="loading ? 'טוען' : 'שלח קישור פלא'"
-                    :disabled="loading"
-                    type="submit"
-                    variant="solid"
-                    class="mt-4 text-white dark:text-white font-semibold"
-                    color="primary"
-                    size="xl"
-                    block
-                  />
-                  <span class="text-xs text-gray-400 dark:text-gray-700 block mt-2"> אין צורך בסיסמה</span>
-                </div>
-              </UContainer>
-            </form>
-          </UModal>
-        </div> -->
       </div>
     </div>
   </header>
